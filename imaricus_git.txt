@@ -1,0 +1,20 @@
+rm == remove file
+git rm <file_name>
+
+
+mv == move file
+// renaming or moving files its a two step
+
+git mv new_filename old_filename
+
+git status -s 	// short status
+M=> modification
+A=> added
+
+
+LHS staging RHS working dir
+
+git log --oneline --reverse
+git show
+both for viewing history
+
